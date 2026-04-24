@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamro Nepal Shopping</title>
+  <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=star" />
+
+</head>
+
+<body>
+  <header class="relative">
+    <nav id="mobile-menu"
+      class=" ml-[-100%]   bg-gray-800 md:bg-transparent  text-white p-4 z-10  h-screen w-40 md:flex md:flex-row  md:h-auto md:w-auto transition-all duration-300 ease-in-out text-2xl md:text-lx  md:mt-3 font-serif absolute md:ml-60 ">
+      <ul class="flex flex-col gap-8 md:gap-15 md:flex-row  md:bg-gray-800  md:h-15 md:p-2 md:rounded-2xl md:pt-3">
+        <li class=" cursor-pointer hover:-translate-0.5 transition-all duration-300 ease-in-out hover:opacity-45">Home
+        </li>
+        <li class=" cursor-pointer hover:-translate-0.5 transition-all duration-300 ease-in-out hover:opacity-45">
+          Products</li>
+        <li class=" cursor-pointer hover:-translate-0.5 transition-all duration-300 ease-in-out hover:opacity-45">
+          Categories</li>
+        <li class=" cursor-pointer hover:-translate-0.5 transition-all duration-300 ease-in-out hover:opacity-45">About
+          Us</li>
+        <li class=" cursor-pointer hover:-translate-0.5 transition-all duration-300 ease-in-out hover:opacity-45">
+          Contact</li>
+      </ul>
+    </nav>
+    <div class="  flex items-center justify-between  p-4  top-0 w-full left-0 ">
+      <div id="slide-btn" class=" md:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
+          <path d="M120-120v-80h720v80H120Zm0-320v-80h720v80H120Zm0-320v-80h720v80H120Z" />
+        </svg>
+      </div>
+      <div class=" ">
+        <img class=" w-20 h-20" src="/src/image/logo.png" alt="Hamro Nepal Shopping Logo">
+      </div>
+      <ul class="flex gap-7 rounded-2xl bg-gray-800 p-2">
+        <li class=" hover:translate-x-1 transition-all duration-300 ease-in-out"><a href="#">
+            <div class="flex gap-1">
+              <img src="/src/image/cart.png" alt="Cart Icon">
+              <span id="cart-count" class=" text-green-600  font-serif">0</span>
+            </div>
+
+
+          </a></li>
+        <li class=" hover:translate-x-1 transition-all duration-300 ease-in-out"><a href="#">
+            <img src="/src/image/fav.png" alt="Favorite Icon">
+          </a></li>
+        <li class="hover:translate-x-1 transition-all duration-300 ease-in-out"><a href="#">
+            <img src="/src/image/account.png" alt="account icon">
+          </a></li>
+      </ul>
+
+    </div>
+
+  </header>
+  <section
+    class="relative h-75 md:h-125 flex items-center justify-center  mx-10 rounded-[20px] overflow-hidden md:mx-20">
+    <img class="absolute inset-0 w-full h-full object-cover" src="/src/image/Banner.jpg" alt="">
+
+    <div class="relative  font-serif font-bold  md:text-4xl">
+      <h1 class="text-center drop-shadow-lg cursor-pointer">
+        "Freshness Delivered to Your Door,<br> Quality You Can Trust."
+      </h1>
+    </div>
+  </section>
+  <section>
+    <h1 class=" text-center font-sans text-[20px] text-white mt-10 font-bold md:text-[30px] cursor-pointer ">Our Top
+      Categories</h1>
+    <div class="grid grid-cols-2 gap-5 mt-8 md:grid-cols-4 md:gap-10  ">
+      <div
+        class=" bg-blue-600 text-center ml-10 h-50 rounded-4xl hover:-translate-1 transition-all duration-500 ease-in cursor-pointer hover:opacity-70 ">
+        <img src="/src/image/barbecue.png" class=" h-20  items-center mx-auto   " alt="">
+        <h1 class=" text-white font-serif font-semibold text-[20px] ">Meat</h1>
+        <p class=" text-white font-serif">"Farm-to-Table Freshness <br>in Every Cut."</p>
+      </div>
+      <div
+        class=" bg-blue-600 text-center mr-10 h-50 rounded-4xl hover:-translate-1 transition-all duration-500 ease-in cursor-pointer hover:opacity-70 ">
+        <img src="/src/image/spices.png" class=" items-center mx-auto h-19  " alt="">
+        <h1 class=" text-white font-serif font-semibold text-[20px]">Spices</h1>
+        <p class=" text-white font-serif">"Unlock the Flavors of the World."</p>
+      </div>
+      <div
+        class=" bg-blue-600 text-center ml-10 h-50 rounded-4xl hover:-translate-1 transition-all duration-500 ease-in cursor-pointer hover:opacity-70 ">
+        <img src="/src/image/rice.png" class=" items-center mx-auto  h-16 mt-2" alt="">
+        <h1 class=" text-white font-serif font-semibold text-[20px] mt-2">Rice</h1>
+        <p class=" text-white font-serif ">"The Heart of Every Meal."</p>
+      </div>
+      <div
+        class=" bg-blue-600 text-center mr-10 h-50 rounded-4xl hover:-translate-1 transition-all duration-500 ease-in cursor-pointer hover:opacity-70">
+        <img src="/src/image/daal.png" class=" items-center mx-auto h-17 mt-2" alt="">
+        <h1 class=" text-white font-serif font-semibold text-[20px] mt-2">Daal</h1>
+        <p class=" text-white font-serif">"Nature’s Protein, Pure and Simple."</p>
+      </div>
+
+    </div>
+
+
+
+
+  </section>
+  <section class="p-8 bg-white mt-15">
+    <div class="flex justify-between items-center mb-6 rounded-tl-2xl rounded-tr-2xl">
+      <h2 class="text-2xl font-bold cursor-pointer">Top Selling Products</h2>
+    </div>
+
+    <div id="product-grid" class="grid grid-cols-2 md:grid-cols-4 gap-6"></div>
+  </section>
+  <section>
+    <h1 class=" text-center my-10 text-[30px] font-serif font-semibold md:text-[40px] cursor-pointer">Why To Choose Us
+    </h1>
+    <div class=" flex justify-center gap-13 md:justify-between md:mx-10">
+      <div class=" text-center bg-black rounded-[70px] cursor-pointer md:rounded-[30px]">
+        <div
+          class=" p-10 hover:scale-110 hover:translate-y-1 transition duration-300 delay-100 ease-in-out md:flex md:justify-center md:items-center md:gap-5 md:mt-1">
+          <img src="/src/image/delivery.png" alt="" class="items-center mx-auto h-20 rounded-[40px]">
+          <div>
+            <h1 class=" text-[15px] text-white mt-3 md:text-[30px]">Local Shipping</h1>
+            <p class=" text-white ">Fast Home Delivery</p>
+          </div>
+        </div>
+      </div>
+      <div class=" bg-black rounded-[70px] cursor-pointer md:rounded-[30px]">
+        <div
+          class=" text-center p-9 hover:scale-110 hover:translate-y-1 transition duration-300 delay-100 ease-in-out  md:flex md:justify-center md:items-center md:gap-5 md:mt-1">
+          <img src="/src/image/support.png" alt="" class="items-center mx-auto h-20  rounded-[40px]">
+          <div>
+            <h1 class=" text-[15px] text-white mt-3 md:text-[30px]">Support Agent</h1>
+            <p class=" text-white ">24/7 Customer Support</p>
+          </div>
+        </div>
+      </div>
+      <div class=" bg-black rounded-[70px] cursor-pointer md:rounded-[30px]">
+        <div
+          class=" text-center p-9 hover:scale-110 hover:translate-y-1 transition duration-300 delay-100 ease-in-out  md:flex md:justify-center md:items-center md:gap-5 md:mt-1">
+          <img src="/src/image/verified.png" alt="" class="items-center mx-auto h-20  rounded-[40px]">
+          <div>
+            <h1 class=" text-[15px] text-white mt-3 md:text-[30px]">verified-User</h1>
+            <p class=" text-white ">100% Organic & Fresh</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+  <section>
+    <h1 class=" text-white text-[30px] font-serif font-semibold text-center my-10">Customer Reviews</h1>
+    <div class=" grid grid-cols-2 ml-7 py-10 gap-5 md:grid-cols-4 md:gap-10 md:mx-10">
+      <div class=" hover:scale-105 hover:blur transition-transform duration-300 ease-in-out cursor-pointer">
+        <img src="/src/image/review1.png" alt="Customer Review 1" class=" h-41.5 rounded-t-[10px]">
+        <div class="bg-white p-6  shadow-lg w-80 rounded-b-[10px]">
+          <div class="flex gap-1 mb-3">
+            <span class="material-symbols-outlined text-amber-300 bg-yellow-100 rounded-full p-1">
+              star
+            </span>
+            <span class="material-symbols-outlined text-amber-300 bg-yellow-100 rounded-full p-1">
+              star
+            </span><span class="material-symbols-outlined text-amber-300 bg-yellow-100 rounded-full p-1">
+              star
+            </span><span class="material-symbols-outlined text-amber-300 bg-yellow-100 rounded-full p-1">
+              star
+            </span>
+            <span class="material-symbols-outlined text-gray-300 bg-yellow-100 rounded-full p-1">
+              star
+            </span>
+          </div>
+
+          <p class="text-gray-600 italic">"The service was amazing, highly recommend!"</p>
+          <h4 class="mt-4 font-bold text-black">- Alex Johnson</h4>
+        </div>
+      </div>
+      <div >
+        <img src="/src/image/review2.png" alt="Customer Review 2" class=" h-41 w-80 rounded-t-[10px]">
+        <div class="bg-white p-6  shadow-lg w-80 rounded-b-[10px]">
+          <div class="flex gap-1 mb-3">
+            <span class="material-symbols-outlined text-amber-300 bg-yellow-100 rounded-full p-1">
+              star
+            </span>
+            <span class="material-symbols-outlined text-amber-300 bg-yellow-100 rounded-full p-1">
+              star
+            </span><span class="material-symbols-outlined text-amber-300 bg-yellow-100 rounded-full p-1">
+              star
+            </span><span class="material-symbols-outlined text-amber-300 bg-yellow-100 rounded-full p-1">
+              star
+            </span>
+            <span class="material-symbols-outlined text-gray-300 bg-yellow-100 rounded-full p-1">
+              star
+            </span>
+          </div>
+
+          <p class="text-gray-600 italic">"The service was amazing, highly recommend!"</p>
+          <h4 class="mt-4 font-bold text-black">- Alex Johnson</h4>
+        </div>
+
+      </div>
+      <div class=" ">
+        <img src="/src/image/review3.png" alt="Customer Review 1" class=" h-41 rounded-t-[10px]">
+        <div class="bg-white p-6  shadow-lg w-80 rounded-b-[10px]">
+          <div class="flex gap-1 mb-3">
+            <span class="material-symbols-outlined text-amber-300 bg-yellow-100 rounded-full p-1">
+              star
+            </span>
+            <span class="material-symbols-outlined text-amber-300 bg-yellow-100 rounded-full p-1">
+              star
+            </span><span class="material-symbols-outlined text-amber-300 bg-yellow-100 rounded-full p-1">
+              star
+            </span><span class="material-symbols-outlined text-amber-300 bg-yellow-100 rounded-full p-1">
+              star
+            </span>
+            <span class="material-symbols-outlined text-gray-300 bg-yellow-100 rounded-full p-1">
+              star
+            </span>
+          </div>
+
+          <p class="text-gray-600 italic">"The service was amazing, highly recommend!"</p>
+          <h4 class="mt-4 font-bold text-black">- smith </h4>
+        </div>
+      </div>
+      <div>
+        <img src="/src/image/review4.png" alt="Customer Review 1" class=" h-42 rounded-t-[10px]">
+        <div class="bg-white p-6  shadow-lg w-80 rounded-b-[10px]">
+          <div class="flex gap-1 mb-3">
+            <span class="material-symbols-outlined text-amber-300 bg-yellow-100 rounded-full p-1">
+              star
+            </span>
+            <span class="material-symbols-outlined text-amber-300 bg-yellow-100 rounded-full p-1">
+              star
+            </span><span class="material-symbols-outlined text-amber-300 bg-yellow-100 rounded-full p-1">
+              star
+            </span><span class="material-symbols-outlined text-amber-300 bg-yellow-100 rounded-full p-1">
+              star
+            </span>
+            <span class="material-symbols-outlined text-gray-300 bg-yellow-100 rounded-full p-1">
+              star
+            </span>
+          </div>
+
+          <p class="text-gray-600 italic">"The service was amazing, highly recommend!"</p>
+          <h4 class="mt-4 font-bold text-black">- Alex Johnson</h4>
+        </div>
+      </div>
+  </section>
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>
